@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #faf7d9;
+    color: #333;
+  }
+  
+  .menuparent {
+    padding: 20px 50px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #002855;
+  }
+  
+  .nav-links a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #002855;
+    font-weight: 500;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff9c4;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  }
+  
+  .left h2 {
+    margin: 0;
+    font-size: 22px;
+    color: #666;
+  }
+  
+  .left h1 {
+    font-size: 48px;
+    margin: 10px 0;
+    color: #002855;
+  }
+  
+  .left p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .resume-btn {
+    padding: 10px 25px;
+    background-color: #002855;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .Hero-image {
+    width: 300px;
+    border-radius: 10px;
+  }
+  .social-icons {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+    
+    .social-icons a {
+      margin: 0 15px;
+      color: #002855;
+      font-size: 24px;
+      transition: color 0.3s;
+    }
+    
+    .social-icons a:hover {
+      color: #0077b5;
+    }
